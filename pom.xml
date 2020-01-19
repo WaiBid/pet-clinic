@@ -80,6 +80,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
 
@@ -87,9 +88,9 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/Wchannel/pet-clinic.git</developerConnection>
-      <tag>petclinic-0.0.1</tag>
-  </scm>
+        <developerConnection>scm:git:git@github.com:WaiBid/pet-clinic.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
 
 
